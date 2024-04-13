@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2551A1;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    max-width: 1000px;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    padding: 10px;
+}
+
+header nav ul li a {
+    color: white;
+    font-size: 14px;
+}
+
+header .logo {
+    color: white;
+    font-size: 18px;
+}
+
+header .header_home {
+    max-width: 1000px;
+    height: 300px;
+    background-color: rgb(219, 219, 219);
+    margin: auto;
+}
+
+header .header_home h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 75px;
+    color: rgb(37, 81, 161);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+header .header_home p {
+    color: rgb(37, 81, 161);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+/* ============================ main start ===================== */
+
+main {
+    max-width: 1000px;
+    margin: 17px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .main_left {
+    width: 600px;
+    height: 360px;
+    border: 1px solid red;
+    background-color: white;
+    padding: 40px;
+}
+
+main .main_left h2 {
+    margin-bottom: 20px;
+    color: #2551A1;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+main .main_left p {
+    margin-bottom: 20px;
+    color: grey;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+main .main_left button {
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    background-color: #2551A1;
+    padding: 12px 20px;
+    border: none;
+}
+
+main .main_right {
+    width: 380px;
+    height: 360px;
+    border: 1px solid red;
+}
+
+main .main_right_bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+main .main_right_bottom .service {
+    width: 175px;
+    height: 155px;
+    background-color: darkblue;
+}
+
+main .main_right_bottom .contact {
+    width: 175px;
+    height: 155px;
+    background-color: white;
+}
+
+main .main_right_bottom .service .bx-menu {
+    color: white;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+main .main_right_bottom .service p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
